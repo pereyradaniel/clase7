@@ -73,9 +73,7 @@ function registroCliente() {
 registroCliente();
 
 let pedido = parseInt(
-  prompt(
-    "Ingrese su Pedido\n1.Leche\n2.Yerba\n3Agua\n4.Salir\n5.Buscar"
-  )
+  prompt("Ingrese su Pedido\n1.Leche\n2.Yerba\n3Agua\n4.Salir\n5.Buscar")
 );
 while (pedido != 4) {
   switch (pedido) {
@@ -99,9 +97,7 @@ while (pedido != 4) {
       break;
   }
   pedido = parseInt(
-    prompt(
-      "Ingrese su Pedido\n1.Leche\n2.Yerba\n3Agua\n4.Salir\n5.Buscar"
-    )
+    prompt("Ingrese su Pedido\n1.Leche\n2.Yerba\n3Agua\n4.Salir\n5.Buscar")
   );
 }
 alert(
